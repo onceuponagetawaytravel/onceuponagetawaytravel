@@ -1,107 +1,81 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tristan & Kaylynn | Orlando Christmas Getaway</title>
+<title>Tristan & Kaylynn's Very Merry Orlando Getaway | Once Upon A Getaway</title>
 <style>
-:root{--navy:#17324d;--blue:#3e7896;--cream:#fbf7ef;--gold:#c89b55;--red:#9d3d3d;--green:#55715a;--ink:#25313b}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
-.hero{padding:70px 22px;text-align:center;color:white;background:linear-gradient(135deg,#17324de8,#55715ae8),url('https://images.unsplash.com/photo-1543589077-47d81606c1bf?auto=format&fit=crop&w=1800&q=80') center/cover}
-.hero h1{font-family:Georgia,serif;font-size:clamp(38px,7vw,72px);margin:0}.hero p{font-size:20px;margin:12px 0 0}.badge{display:inline-block;background:#fff;color:var(--red);padding:7px 13px;border-radius:999px;font-weight:bold;margin-bottom:16px}
-.wrap{max-width:1080px;margin:auto;padding:42px 20px}h2{font-family:Georgia,serif;color:var(--navy);font-size:34px;margin-bottom:8px}h3{color:var(--navy)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.card{background:white;border-radius:18px;padding:24px;box-shadow:0 6px 22px #17324d12;border:1px solid #e8e1d5}.price{font-size:30px;font-weight:bold;color:var(--red)}.small{font-size:13px;color:#65727c}.tag{display:inline-block;padding:5px 9px;border-radius:8px;background:#edf3ef;color:var(--green);font-size:12px;font-weight:bold}
-.day{display:grid;grid-template-columns:105px 1fr;gap:20px;padding:23px 0;border-bottom:1px solid #ddd}.date{font-weight:bold;color:var(--red);font-size:18px}.day h3{margin:0 0 5px}
-ul{padding-left:20px}.btn{display:inline-block;background:var(--navy);color:white!important;text-decoration:none;padding:11px 16px;border-radius:9px;font-weight:bold;margin:5px 5px 5px 0}.btn.alt{background:var(--red)}
-.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;margin-top:16px}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.callout{background:var(--navy);color:white;border-radius:20px;padding:28px;margin:30px 0}.callout h2{color:white}.total{background:#f5eee1;border-left:5px solid var(--gold)}
-footer{text-align:center;padding:40px 20px;background:var(--navy);color:white}.logo{font-family:Georgia,serif;font-size:25px}
-@media(max-width:600px){.day{grid-template-columns:1fr;gap:4px}.hero{padding:50px 18px}}
+:root{--evergreen:#123d2d;--pine:#1d563d;--red:#a51f2d;--cranberry:#7f1722;--cream:#fffaf0;--warm:#f4ead8;--gold:#d5aa55;--ink:#24332d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif;line-height:1.55}
+body:before{content:"✦  ·  ✦  ·  ✦  ·  ✦  ·  ✦";display:block;text-align:center;letter-spacing:12px;background:var(--cranberry);color:#fff;padding:8px;font-size:11px}
+.hero{min-height:650px;display:grid;place-items:center;text-align:center;padding:55px 22px;position:relative;overflow:hidden;background:radial-gradient(circle at 20% 10%,#ffffff22 0 2px,transparent 3px),radial-gradient(circle at 80% 30%,#ffffff22 0 2px,transparent 3px),linear-gradient(145deg,#0d3426,#1d563d 55%,#7f1722)}
+.hero:after{content:"";position:absolute;inset:auto -5% -85px;height:170px;background:var(--cream);border-radius:50% 50% 0 0/55% 55% 0 0}
+.hero-inner{position:relative;z-index:2;max-width:850px}.brand-logo{width:150px;height:150px;object-fit:contain;background:#fff;border-radius:50%;padding:8px;box-shadow:0 10px 35px #0004;margin-bottom:20px}
+.kicker{display:inline-block;color:#fff;background:#a51f2d;border:1px solid #ffffff66;border-radius:999px;padding:8px 16px;font-size:13px;font-weight:800;letter-spacing:2px}
+.hero h1{font-family:Georgia,serif;color:#fff;font-size:clamp(45px,8vw,82px);line-height:1.02;margin:20px 0 12px;text-shadow:0 4px 22px #0006}.hero h1 span{color:#f6d88f}.hero p{color:#fff;font-size:20px;margin:8px auto;max-width:700px}.sparkle{color:#f6d88f;font-size:24px;letter-spacing:9px}
+.wrap{max-width:1100px;margin:auto;padding:25px 20px 60px}.intro{text-align:center;max-width:800px;margin:0 auto 55px}.intro h2,.section-title{font-family:Georgia,serif;font-size:clamp(32px,5vw,48px);color:var(--evergreen);margin-bottom:8px}.eyebrow{color:var(--red);font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase}
+.chapter{margin:70px 0;border-radius:28px;overflow:hidden;background:#fff;box-shadow:0 14px 45px #173b2a14}.chapter-head{padding:42px;color:#fff;background:linear-gradient(135deg,var(--evergreen),var(--pine));position:relative}.chapter-head.red{background:linear-gradient(135deg,var(--cranberry),var(--red))}.chapter-head h2{font-family:Georgia,serif;font-size:42px;margin:3px 0}.chapter-head p{margin:0;max-width:720px}.chapter-body{padding:34px}
+.ribbon{display:inline-block;background:#fff;color:var(--red);padding:6px 12px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:1.5px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{border:1px solid #eadfce;border-radius:18px;padding:22px;background:#fffaf4}.card h3{color:var(--evergreen);margin-top:5px}.price{font-family:Georgia,serif;color:var(--red);font-size:32px;font-weight:800}.mini{font-size:13px;color:#65716b}.check{padding:0;list-style:none}.check li{padding:6px 0}.check li:before{content:"✓";color:var(--pine);font-weight:900;margin-right:8px}
+.magic{background:linear-gradient(135deg,#f8eee0,#fffaf0);border:1px solid #dfc28a;border-radius:20px;padding:25px;margin-top:20px}.magic h3{font-family:Georgia,serif;font-size:28px;margin:0 0 8px;color:var(--cranberry)}
+.timeline{display:grid;gap:0}.day{display:grid;grid-template-columns:120px 1fr;gap:22px;padding:24px 0;border-bottom:1px dashed #d8cbb8}.date{color:var(--red);font-weight:900;letter-spacing:1px}.day h3{margin:0;color:var(--evergreen);font-size:21px}.day p{margin:6px 0 0}
+.addon{border-top:5px solid var(--red)}.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;padding:12px 17px;border-radius:10px;font-weight:800;margin-top:8px}.btn.green{background:var(--evergreen)}
+.flights{display:grid;grid-template-columns:1fr 1fr;gap:18px}.flight{padding:25px;border-radius:20px;background:var(--evergreen);color:#fff}.flight.alt{background:var(--cranberry)}.flight .price{color:#fff}.flight h3{font-family:Georgia,serif;font-size:28px;margin:0}
+.final{margin:75px 0 30px;text-align:center}.final-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;text-align:left;margin-top:28px}.package{position:relative;background:#fff;border:2px solid #e5d3b1;border-radius:24px;padding:30px;box-shadow:0 15px 40px #173b2a14}.package.featured{border:3px solid var(--red)}.package .price{font-size:42px}.package hr{border:0;border-top:1px solid #e6d8c4;margin:20px 0}.plus{font-weight:800;color:var(--red)}
+.booking{background:var(--evergreen);color:#fff;border-radius:26px;padding:34px;margin-top:45px}.booking h2{font-family:Georgia,serif;font-size:36px;margin-top:0}.booking .grid .card{color:var(--ink)}
+footer{text-align:center;background:#0d3426;color:#fff;padding:45px 20px}.footer-logo{width:110px;background:#fff;border-radius:50%;padding:6px}.footer-brand{font-family:Georgia,serif;font-size:25px;margin-top:12px}
+@media(max-width:700px){.hero{min-height:580px}.brand-logo{width:120px;height:120px}.chapter-head h2{font-size:34px}.flights,.final-grid{grid-template-columns:1fr}.day{grid-template-columns:1fr;gap:4px}.chapter-body{padding:24px}.hero p{font-size:17px}}
 </style></head>
 <body>
-<header class="hero"><span class="badge">DECEMBER 10–18, 2026</span><h1>Tristan & Kaylynn's<br>Very Merry Orlando Adventure</h1><p>Universal Orlando + Walt Disney World • 2 Adults • 8 nights of theme park Christmas magic</p></header>
+<header class="hero"><div class="hero-inner">
+<img class="brand-logo" src="../../assets/1.png" alt="Once Upon A Getaway Travel Co.">
+<div class="kicker">DECEMBER 10–18, 2026 • ORLANDO, FLORIDA</div>
+<h1>Tristan & Kaylynn's<br><span>Very Merry</span> Getaway</h1>
+<div class="sparkle">✦ ✨ ✦</div>
+<p>Universal Orlando + Walt Disney World</p>
+<p><b>8 nights • 2 adults • one seriously merry adventure</b></p>
+</div></header>
 
 <main class="wrap">
-<section><h2>Your Trip at a Glance</h2><p>Fly into Orlando on December 10, spend four nights at Universal's Endless Summer Resort – Dockside Inn and Suites, then move to Walt Disney World December 14–18. Your Disney package includes four-day Park Hopper tickets, giving you flexibility to move between parks.</p></section>
+<section class="intro"><div class="eyebrow">Your Christmas Getaway</div><h2>Two Resorts. Seven Park Days. All the Holiday Magic.</h2><p>Start with four nights at Universal Orlando, including two Park-to-Park days and a full day at Epic Universe. Then move to Walt Disney World for four nights and four Park Hopper days, with two optional Christmas parties waiting to make it even merrier.</p></section>
 
-<section><h2>Flights ✈️</h2><div class="grid">
-<div class="card"><span class="tag">LOWEST FARE OPTION</span><h3>Frontier</h3><div class="price">+$254/person</div><p>Current fare is <b>$254 per person</b> with no luggage included. <b>$508 total for 2 travelers</b> at the current quoted fare.</p></div>
-<div class="card"><span class="tag">LUGGAGE INCLUDED</span><h3>United</h3><div class="price">+$554/person</div><p>Current fare is <b>$554 per person</b> with luggage included. <b>$1,108 total for 2 travelers</b> at the current quoted fare.</p></div></div>
-<p class="small"><b>Flight pricing is not guaranteed.</b> Airfare can change at any time and will vary until flights are booked and paid in full.</p></section>
-
-<section><h2>Booking & Payment Details</h2><div class="callout"><h2>Important Pricing Disclosure</h2><p><b>All prices shown are quotes only and are not guaranteed until the required deposit has been made.</b> Pricing and availability may change at any time prior to booking.</p></div>
-<div class="grid">
-<div class="card"><h3>🏰 Walt Disney World</h3><div class="price">$200 Deposit</div><p>A $200 deposit is required to secure a Walt Disney World vacation package. The remaining vacation package balance is due in full <b>30 days prior to check-in</b>.</p><a class="btn" href="https://disneyworld.disney.go.com/terms-conditions-package-2026/" target="_blank">Disney 2026 Terms & Conditions</a></div>
-<div class="card"><h3>🎢 Universal Orlando</h3><div class="price">$200 Deposit</div><p>A $200 deposit is required to secure the Universal Orlando vacation package. The remaining vacation package balance is due in full <b>45 days prior to arrival</b>.</p><a class="btn" href="https://www.universalorlandovacations.com/general-information/terms-and-conditions" target="_blank">Universal Terms & Conditions</a></div>
+<section class="chapter"><div class="chapter-head"><span class="ribbon">DECEMBER 10–14</span><h2>🎄 Universal Orlando</h2><p>Check into Universal Endless Summer Resort – Dockside Inn and Suites and kick off Christmas in Orlando with Universal Studios Florida, Islands of Adventure and Epic Universe.</p></div>
+<div class="chapter-body"><div class="grid">
+<div class="card"><div class="eyebrow">Your Stay</div><h3>Dockside Inn & Suites</h3><p>4 nights • Standard Room • 2 Queen Beds • 2 adults</p><ul class="check"><li>Early Park Admission</li><li>2-Day Park-to-Park ticket</li><li>1-Day Epic Universe promo ticket</li></ul></div>
+<div class="card"><div class="eyebrow">Your Park Days</div><h3>Three Days of Universal</h3><p><b>Dec 11:</b> Universal Studios + Islands of Adventure</p><p><b>Dec 12:</b> Park-to-Park round two</p><p><b>Dec 13:</b> Epic Universe</p></div>
 </div>
-<p class="small">Deposits apply toward the package balance. Separately ticketed events and airfare may have different payment, cancellation and refund terms.</p></section>
+<div class="magic"><div class="eyebrow">Choose Your Universal Experience</div><h3>Want a little extra Wizarding World magic? ⚡</h3><div class="grid">
+<div><p><b>Budget Friendly</b></p><div class="price">$1,569.16</div><p>Create Your Own Vacation package with hotel, park tickets and Early Park Admission.</p></div>
+<div><p><b>Wizarding World Experience</b></p><div class="price">$1,750.05</div><p>Add themed breakfasts at Leaky Cauldron and Three Broomsticks, Café L'air De La Sirène breakfast, Shutterbutton's session + photo and a Florean Fortescue's ice-cream flight.</p><p><b>Only $180.89 more total.</b></p></div>
+</div></div></div></section>
 
-<section><h2>Universal • Dec 10–14</h2><div class="grid">
-<div class="card"><span class="tag">BEST VALUE</span><h3>Create Your Own Vacation</h3><div class="price">$1,569.16</div><p>2 adults • Dockside Inn & Suites • Standard 2 Queen Beds</p><ul><li>2-Day Park-to-Park + 1-Day Epic Universe promo ticket</li><li>Early Park Admission</li><li>Bundle & Save $50</li><li>Cancel For Any Reason</li></ul></div>
-<div class="card"><span class="tag">EXPERIENCE UPGRADE</span><h3>Exclusive Vacation Package</h3><div class="price">$1,750.05</div><p>Same hotel and park tickets, plus immersive Wizarding World extras.</p><ul><li>Leaky Cauldron™ Breakfast</li><li>Three Broomsticks™ Breakfast</li><li>Café L'air De La Sirène Breakfast</li><li>Shutterbutton’s™ Session + Photo</li><li>Florean Fortescue’s™ Ice-Cream Flight</li></ul><p><b>Upgrade difference: $180.89 total</b></p></div></div>
-<div class="callout"><h2>Why the Exclusive Package is Fun</h2><p>This is more than extra food. It adds themed experiences throughout The Wizarding World of Harry Potter™, including breakfasts inside Diagon Alley and Hogsmeade, a moving portrait experience at Shutterbutton's, and an ice-cream flight at Florean Fortescue's.</p><a class="btn" href="https://www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/hub" target="_blank">Explore the Wizarding World</a></div>
-<h3>See Epic Universe</h3><div class="video"><iframe src="https://www.youtube.com/embed/U4u83ncMjuE" title="Introducing Universal Epic Universe" allowfullscreen></iframe></div>
+<section class="chapter"><div class="chapter-head red"><span class="ribbon">DECEMBER 14–18</span><h2>✨ Walt Disney World</h2><p>Trade Universal for four merry nights at Disney and four days of Park Hopper fun.</p></div>
+<div class="chapter-body"><div class="grid">
+<div class="card"><div class="eyebrow">Budget Friendly Disney</div><h3>Disney's All-Star Movies Resort</h3><div class="price">$2,511.38</div><p>4 nights • Standard Room • 2 adults</p><ul class="check"><li>4-Day Ticket with Park Hopper Option</li><li>Disney+ Perks Members holiday package savings</li></ul></div>
+<div class="card"><div class="eyebrow">Optional Resort Upgrade</div><h3>Disney's Pop Century Resort</h3><div class="price">$2,808.40</div><p>Same four-night stay and Park Hopper tickets, with Skyliner access.</p><p><b>+$297.02 total</b></p></div>
+</div>
+
+<div class="timeline">
+<div class="day"><div class="date">MON • DEC 14</div><div><h3>🎬 Hollywood Studios</h3><p>Move to Disney, check in and start your Park Hopper tickets at Hollywood Studios.</p><div class="magic addon"><div class="eyebrow">Optional Christmas Extra</div><h3>Disney Jollywood Nights ✨</h3><div class="price">$423.88 for 2</div><p>This is the only Jollywood Nights date during your stay. A separately ticketed Hollywood Studios holiday party with entertainment, characters, attractions and Jingle Bell, Jingle BAM!</p><a class="btn" href="https://disneyworld.disney.go.com/events-tours/hollywood-studios/jollywood-nights/" target="_blank">Explore Jollywood Nights</a></div></div></div>
+<div class="day"><div class="date">TUE • DEC 15</div><div><h3>🏰 Magic Kingdom</h3><p>A full Magic Kingdom Christmas day, with another optional way to turn up the holiday magic after dark.</p><div class="magic addon"><div class="eyebrow">Optional Christmas Extra</div><h3>Mickey's Very Merry Christmas Party 🎅</h3><div class="price">$477.12 for 2</div><p>Magic Kingdom's separately ticketed Christmas party with holiday entertainment, festive treats and special seasonal experiences.</p><a class="btn" href="https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/" target="_blank">Explore Mickey's Very Merry Christmas Party</a></div></div></div>
+<div class="day"><div class="date">WED • DEC 16</div><div><h3>🌐 EPCOT</h3><p>Spend the day exploring EPCOT and the holiday atmosphere around World Showcase. Park Hopper gives you the freedom to finish the night wherever you want.</p></div></div>
+<div class="day"><div class="date">THU • DEC 17</div><div><h3>🌳 Animal Kingdom + Park Hopper Finale</h3><p>Start at Animal Kingdom, then use your final Park Hopper day to revisit whichever Disney park you loved most.</p></div></div>
+<div class="day"><div class="date">FRI • DEC 18</div><div><h3>✈️ Head Home</h3><p>Check out and head to the airport with a whole lot of Christmas memories.</p></div></div>
+</div></div></section>
+
+<section><div class="eyebrow">Getting There</div><h2 class="section-title">Pick Your Flight ✈️</h2><div class="flights">
+<div class="flight"><h3>Frontier</h3><div class="price">$254/person</div><p><b>$508 total for 2</b><br>No luggage included.</p></div>
+<div class="flight alt"><h3>United</h3><div class="price">$554/person</div><p><b>$1,108 total for 2</b><br>Luggage included.</p></div></div><p class="mini">Airfare can change at any time and is not guaranteed until flights are booked and paid in full.</p></section>
+
+<section class="final"><div class="eyebrow">Now Put It All Together</div><h2 class="section-title">🎁 Choose Your Getaway</h2><p>You've seen the parks, the resort stays and the Christmas extras. Now choose the package that feels right.</p>
+<div class="final-grid">
+<div class="package featured"><div class="eyebrow">Lowest Package Price</div><h3>💰 Budget Friendly</h3><p>Universal Create Your Own Vacation</p><div class="price">$1,569.16</div><p>Disney All-Star Movies + 4-Day Park Hopper</p><div class="price">$2,511.38</div><hr><p><b>PACKAGE TOTAL FOR 2</b></p><div class="price">$4,080.54</div><p class="plus">+ Flights<br>+ Any Christmas parties you choose</p></div>
+<div class="package"><div class="eyebrow">More Holiday Magic</div><h3>⚡ Wizarding World Experience</h3><p>Universal Exclusive Vacation Package</p><div class="price">$1,750.05</div><p>Disney All-Star Movies + 4-Day Park Hopper</p><div class="price">$2,511.38</div><hr><p><b>PACKAGE TOTAL FOR 2</b></p><div class="price">$4,261.43</div><p class="plus">+ Flights<br>+ Any Christmas parties you choose</p></div>
+</div>
+<div class="magic"><h3>🎄 Want BOTH Christmas parties?</h3><p>Jollywood Nights + Mickey's Very Merry Christmas Party add <b>$901.00 total for two</b>.</p></div>
 </section>
 
-<section><h2>Walt Disney World • Dec 14–18</h2><div class="grid">
-<div class="card"><span class="tag">LOWER PRICE</span><h3>Disney's All-Star Movies Resort</h3><div class="price">$2,511.38</div><p>Standard Room • 2 Adults</p><ul><li>4-night stay</li><li>4-Day Ticket with Park Hopper Option</li><li>Disney+ Perks Members holiday package savings</li></ul></div>
-<div class="card"><span class="tag">SKYLINER RESORT</span><h3>Disney's Pop Century Resort</h3><div class="price">$2,808.40</div><p>Standard Room • 2 Adults</p><ul><li>4-night stay</li><li>4-Day Ticket with Park Hopper Option</li><li>Disney+ Perks Members holiday package savings</li></ul><p><b>Difference: $297.02 total</b></p></div></div>
-<p class="small">Current Disney quotes do not include Memory Maker, dining, ground transportation or travel protection. Saved offers and availability can change until purchased.</p>
-</section>
-
-<section><h2>The Itinerary</h2>
-<div class="day"><div class="date">THU<br>DEC 10</div><div><h3>Arrive in Orlando ✈️</h3><p>Fly into Orlando, transfer to Universal's Endless Summer Resort – Dockside Inn and Suites, check in and settle in. Keep tonight easy. Explore the resort or head to Universal CityWalk for dinner.</p></div></div>
-<div class="day"><div class="date">FRI<br>DEC 11</div><div><h3>Universal Studios Florida + Islands of Adventure</h3><p>Use the Park-to-Park ticket and make this your Wizarding World day. Explore Diagon Alley, ride Harry Potter and the Escape from Gringotts™, then take the Hogwarts Express™ to Hogsmeade. If choosing the Exclusive Package, work the included themed breakfast experiences into these two park days.</p></div></div>
-<div class="day"><div class="date">SAT<br>DEC 12</div><div><h3>Universal + Islands, Round Two</h3><p>Use the second Park-to-Park day for everything you missed, favorite repeats and the second Wizarding World breakfast. This is also the day to enjoy the Shutterbutton's session and Florean Fortescue's Ice-Cream Flight if included in your package.</p></div></div>
-<div class="day"><div class="date">SUN<br>DEC 13</div><div><h3>Universal Epic Universe 🌌</h3><p>A full day dedicated to Epic Universe. Explore Celestial Park, Super Nintendo World, Dark Universe, How to Train Your Dragon – Isle of Berk, and The Wizarding World of Harry Potter – Ministry of Magic.</p></div></div>
-<div class="day"><div class="date">MON<br>DEC 14</div><div><h3>Move to Disney + Hollywood Studios</h3><p>Check out of Universal and transfer to your Disney resort. Start the four-day Park Hopper ticket today. Hollywood Studios is the natural park choice because <b>Disney Jollywood Nights is offered tonight only during their stay.</b></p><p>Optional: Disney Jollywood Nights from 7:30 PM–12:30 AM. Event guests can enter beginning at 5:30 PM.</p></div></div>
-<div class="day"><div class="date">TUE<br>DEC 15</div><div><h3>Magic Kingdom + Optional Christmas Party</h3><p>Spend the day at Magic Kingdom, or take a slower morning after Jollywood. Tonight is an available Mickey's Very Merry Christmas Party date, making this the ultimate Christmas-at-Disney day if they want to add it.</p></div></div>
-<div class="day"><div class="date">WED<br>DEC 16</div><div><h3>EPCOT 🌐</h3><p>Explore EPCOT and the holiday atmosphere around World Showcase. The Park Hopper option leaves the evening open to revisit another park if they want.</p></div></div>
-<div class="day"><div class="date">THU<br>DEC 17</div><div><h3>Animal Kingdom + Hopper Finale</h3><p>Start at Animal Kingdom, then use the final Park Hopper day to finish the trip wherever they want most. Return to EPCOT, Magic Kingdom or Hollywood Studios for one last Disney night.</p></div></div>
-<div class="day"><div class="date">FRI<br>DEC 18</div><div><h3>Travel Home ✈️</h3><p>Check out of the Disney resort and head to the airport. No park ticket is planned for today.</p></div></div>
-</section>
-
-<section><h2>Optional Christmas Party Upgrades 🎄</h2><div class="grid">
-<div class="card"><span class="tag">DEC 14 ONLY</span><h3>Disney Jollywood Nights</h3><div class="price">$423.88</div><p>2 adult tickets • $199 each + $25.88 tax</p><p>A five-hour holiday party at Disney's Hollywood Studios with Hollywood glam, exclusive entertainment, character encounters, attractions with lower waits, themed PhotoPass and Jingle Bell, Jingle BAM!</p><a class="btn alt" href="https://disneyworld.disney.go.com/events-tours/hollywood-studios/jollywood-nights/" target="_blank">Official Event Details</a></div>
-<div class="card"><span class="tag">DEC 15</span><h3>Mickey's Very Merry Christmas Party</h3><div class="price">$477.12</div><p>Total for 2</p><p>Magic Kingdom's classic Christmas party runs 7 PM–midnight, with event entry as early as 4 PM. Expect holiday entertainment, special treats, festive attraction overlays and Christmas atmosphere throughout Magic Kingdom.</p><a class="btn alt" href="https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/" target="_blank">Official Event Details</a></div></div>
-<h3>Preview Mickey's Very Merry Christmas Party</h3><div class="video"><iframe src="https://www.youtube.com/embed/7Grrf5S9k-c" title="Mickey's Very Merry Christmas Party preview" allowfullscreen></iframe></div>
-</section>
-
-<section id="package-totals"><h2>Now Let's Put It All Together ✨</h2>
-<p>After looking through Universal, Epic Universe, Walt Disney World and the optional Christmas parties, here is what the complete trip looks like. <b>These package totals are for 2 adults and do not include flights or optional Christmas parties unless specifically shown.</b></p>
-
-<div class="grid">
-<div class="card total"><span class="tag">BUDGET FRIENDLY</span><h3>💰 Budget Friendly Package</h3>
-<p><b>Universal Orlando</b><br>Create Your Own Vacation Package</p><div class="price">$1,569.16</div>
-<p><b>Walt Disney World</b><br>Disney's All-Star Movies Resort + 4-Day Park Hopper</p><div class="price">$2,511.38</div>
-<hr><p><b>PACKAGE TOTAL FOR 2</b></p><div class="price">$4,080.54</div>
-<p><b>+ Flights:</b> currently $254–$554 per person<br><b>+ Optional Christmas Parties:</b> up to $901 total for both events</p>
-</div>
-
-<div class="card total"><span class="tag">WIZARDING WORLD + BUDGET DISNEY</span><h3>⚡ Wizarding World Package</h3>
-<p><b>Universal Orlando</b><br>Exclusive Vacation Package with Wizarding World experiences</p><div class="price">$1,750.05</div>
-<p><b>Walt Disney World</b><br>Disney's All-Star Movies Resort + 4-Day Park Hopper</p><div class="price">$2,511.38</div>
-<hr><p><b>PACKAGE TOTAL FOR 2</b></p><div class="price">$4,261.43</div>
-<p><b>+ Flights:</b> currently $254–$554 per person<br><b>+ Optional Christmas Parties:</b> up to $901 total for both events</p>
-</div>
-</div>
-
-<h3>Optional Add-Ons</h3>
-<div class="grid">
-<div class="card"><h3>🎄 Disney Jollywood Nights</h3><div class="price">$423.88</div><p>Total for 2 • Dec. 14 only</p></div>
-<div class="card"><h3>🎅 Mickey's Very Merry Christmas Party</h3><div class="price">$477.12</div><p>Total for 2 • Dec. 15</p></div>
-<div class="card"><h3>🎄 Both Christmas Parties</h3><div class="price">$901.00</div><p>Total additional cost for 2</p></div>
-</div>
-
-<h3>With Current Flight Options</h3>
-<div class="grid">
-<div class="card"><h3>Budget Friendly + Frontier</h3><div class="price">$4,588.54</div><p>Package + $508 current Frontier total for 2. <b>Christmas parties not included.</b></p></div>
-<div class="card"><h3>Budget Friendly + United</h3><div class="price">$5,188.54</div><p>Package + $1,108 current United total for 2. <b>Christmas parties not included.</b></p></div>
-<div class="card"><h3>Wizarding World + Frontier</h3><div class="price">$4,769.43</div><p>Package + $508 current Frontier total for 2. <b>Christmas parties not included.</b></p></div>
-<div class="card"><h3>Wizarding World + United</h3><div class="price">$5,369.43</div><p>Package + $1,108 current United total for 2. <b>Christmas parties not included.</b></p></div>
-</div>
-
-<div class="callout"><h2>Important Before Booking</h2><p><b>All prices are quotes only and are not guaranteed until the required deposit is made.</b> Package availability and pricing can change before booking. Flight prices can change until flights are booked and paid in full. Separately ticketed Christmas events are also subject to availability.</p></div>
-</section>
-
-<section class="callout"><h2>Your Travel Bestie Note</h2><p>You do not need the separately ticketed Christmas parties to have an incredible trip. They are true add-ons. If Christmas entertainment is a priority, Dec. 14 Jollywood Nights and Dec. 15 Mickey's Very Merry Christmas Party create two very different holiday experiences back-to-back. If you would rather have slower evenings and more flexibility, the included Park Hopper tickets already give you four full Disney park days.</p></section>
+<section class="booking"><div class="eyebrow" style="color:#f6d88f">Ready When You Are</div><h2>Make It Official ✨</h2><p>Once you've chosen your Universal package, Disney resort, flights and Christmas extras, we can put the pieces together.</p><div class="grid">
+<div class="card"><h3>Universal Orlando</h3><div class="price">$200 deposit</div><p>Remaining package balance due in full 45 days prior to arrival.</p><a class="btn green" href="https://www.universalorlandovacations.com/general-information/terms-and-conditions" target="_blank">Universal Terms</a></div>
+<div class="card"><h3>Walt Disney World</h3><div class="price">$200 deposit</div><p>Remaining package balance due in full 30 days prior to check-in.</p><a class="btn green" href="https://disneyworld.disney.go.com/terms-conditions-package-2026/" target="_blank">Disney 2026 Terms</a></div>
+</div><p class="mini" style="color:#fff">All prices shown are quotes only and are not guaranteed until the required deposit has been made. Pricing and availability may change prior to booking. Separately ticketed events and airfare may have different payment, cancellation and refund terms.</p></section>
 </main>
-<footer><div class="logo">Once Upon A Getaway Travel Co.</div><p>Turning Travel Dreams Into Getaways ✨<br>Hollie & Aaron • Your Travel Besties</p></footer>
+
+<footer><img class="footer-logo" src="../../assets/1.png" alt="Once Upon A Getaway Travel Co."><div class="footer-brand">Once Upon A Getaway Travel Co.</div><p>Turning Travel Dreams Into Getaways ✨<br><b>Hollie & Aaron • Your Travel Besties</b></p></footer>
 </body></html>
